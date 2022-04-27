@@ -1,0 +1,70 @@
+
+.board{
+    height: calc(100vh - 55px);
+    padding: 160px 161px;
+    background-color: rgb(20, 141, 172);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: -330px;
+  }
+
+  body {
+    background-color: rgb(20, 141, 172);
+}
+   
+    .card{
+        background-color: rgb(255, 255, 255);
+        width: 240px;
+        height: 100px;
+        margin: 8px;
+        border: 2px black solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+
+   .hidden{
+       content-visibility: hidden;
+       background-color: rgb(255, 255, 255);
+       background-image: url("rrr.png");
+       width: 240px;
+       height: 100px;
+       margin: 8px;
+       border: 2px black solid;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       box-sizing: border-box;
+           }
+       
+#title{
+    display: inline-flex;
+     margin-left: 32%;
+      margin-top: -160px;
+       width: 700px; 
+       height: 500px;
+
+}
+
+#img2{
+    max-width: 100%;
+     max-height: 100%
+}
+       
+
+#win {
+    margin-left: 1109px;
+    margin-top: -800px;
+}
+
+
+.Fireworkshidden {
+    margin-top: -800px;
+    visibility: hidden;
+}
+
+#Fireworks {
+    margin-top: -800px;
+    
+}
